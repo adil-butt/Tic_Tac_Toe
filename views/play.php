@@ -17,6 +17,23 @@ include("../include/header.php");
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">Play<b></h1>
                                 </div>
+                                <table>
+                                    <tr>
+                                        <td></td>
+                                        <td class="vert"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hori"></td>
+                                        <td class="vert hori"></td>
+                                        <td class="hori"></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td class="vert"></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
                                 <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/index.php" class="btn btn-primary btn-user btn-block">
                                     Quit
                                 </a>
