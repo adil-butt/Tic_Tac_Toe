@@ -15,7 +15,7 @@ include("../include/header.php");
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Play<b></h1>
+                                    <h1 class="h4 text-gray-900 mb-4"><b>Play<b></h1>
                                 </div>
                                 <table>
                                     <tr>
@@ -34,9 +34,10 @@ include("../include/header.php");
                                         <td></td>
                                     </tr>
                                 </table>
-                                <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/index.php" class="btn btn-primary btn-user btn-block">
-                                    Quit
-                                </a>
+                                <div>
+                                    <a href="" class="btn btn-outline-primary">Restart</a>
+                                    <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/index.php" class="btn btn-outline-primary">Quit</a>
+                                </div>
                             </div>
                         </div>
                     </div>

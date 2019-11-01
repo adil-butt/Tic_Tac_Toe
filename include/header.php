@@ -26,6 +26,7 @@ $protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https://'?'htt
   <!-- Custom styles for this template-->
   <link href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/css/sb-admin-2.min.css" rel="stylesheet">
 
+  <link href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/css/custom.css" rel="stylesheet">
 </head>
 
 <body class="bg-gradient-primary">
