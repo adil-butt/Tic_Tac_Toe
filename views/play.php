@@ -34,7 +34,7 @@ include("../include/header.php");
                                         <td id="td8"></td>
                                     </tr>
                                 </table>
-                                <div>
+                                <div style="text-align: center; margin-top: 50px">
                                     <a id="restart" href="#" class="btn btn-outline-primary">Restart</a>
                                     <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/index.php" class="btn btn-outline-primary">Quit</a>
                                 </div>
