@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Qureshi_Traders" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572616910597</updated>
       <workItem from="1572616912022" duration="834000" />
-      <workItem from="1572617986059" duration="17996000" />
+      <workItem from="1572617986059" duration="19138000" />
     </task>
     <servers />
   </component>
