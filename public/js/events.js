@@ -48,7 +48,6 @@ $(document).ready(function(){
                 winner = 'Player 2';
             }
         }
-
         for(let j = 0; j <= 8; j++) {
             var isCorrect = true;
             if($("#td"+j).text() === '') {
@@ -56,28 +55,23 @@ $(document).ready(function(){
                 break;
             }
         }
-
         if(isCorrect) {
             $.alert({
                 title: 'Game Over',
                 content: 'The Game is Over!',
             });
         }
-
         if(win) {
             $.alert({
                 title: 'Winner!',
                 content: winner+' Wins',
             });
         }
-
         $(document).on("click", "#restart", function() {
             $('#gameTable td').text('');
             value = 'X';
             win = false;
             winner = '';
         });
-
     });
-
 });
