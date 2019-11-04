@@ -22,23 +22,11 @@ body {
     font-family: sans-serif;
     color: #333;
 }
-#intro-screen {
-    max-width: 420px;
-    text-align: center;  /* Centers h2 and buttons */
-}
-#intro-screen h2 {
-    padding: 0 15px;  /* Prevent text from touching the edges of the screen */
-}
-#intro-screen button {
+#gameTable td {
     font-size: 3.4em;
     padding: 3% 6%;  /* With "%" padding is based on container's width */
-    margin: 0 4%;  /* Create distance between buttons */
-}
-button {
-    cursor: pointer;  /* Visually show that you can interact with the button */
-    border: none;  /* Hides default border (and color, for some reason */
-    color: #333;
-}
-.choose {
+    margin: 0 4%;
     border-radius: 0.3em;
+    cursor: pointer;  /* Visually show that you can interact with the button */
+    color: #333;
 }

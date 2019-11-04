@@ -17,9 +17,9 @@ include("../include/header.php");
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4"><b>Play<b></h1>
                                 </div>
-                                <table>
+                                <table id="gameTable">
                                     <tr>
-                                        <td></td>
+                                        <td>a</td>
                                         <td class="vert"></td>
                                         <td></td>
                                     </tr>
