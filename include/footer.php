@@ -9,6 +9,9 @@
 	<script src="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/js/sb-admin-2.min.js"></script>
     <script src="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/js/events.js"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
 </body>
 
 </html>
