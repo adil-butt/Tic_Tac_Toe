@@ -19,23 +19,23 @@ include("../include/header.php");
                                 </div>
                                 <table id="gameTable">
                                     <tr>
-                                        <td>a</td>
-                                        <td class="vert"></td>
-                                        <td></td>
+                                        <td id="td0"></td>
+                                        <td id="td1" class="vert"></td>
+                                        <td id="td2"></td>
                                     </tr>
                                     <tr>
-                                        <td class="hori"></td>
-                                        <td class="vert hori"></td>
-                                        <td class="hori"></td>
+                                        <td id="td3" class="hori"></td>
+                                        <td id="td4" class="vert hori"></td>
+                                        <td id="td5" class="hori"></td>
                                     </tr>
                                     <tr>
-                                        <td></td>
-                                        <td class="vert"></td>
-                                        <td></td>
+                                        <td id="td6"></td>
+                                        <td id="td7" class="vert"></td>
+                                        <td id="td8"></td>
                                     </tr>
                                 </table>
                                 <div>
-                                    <a href="" class="btn btn-outline-primary">Restart</a>
+                                    <a id="restart" href="#" class="btn btn-outline-primary">Restart</a>
                                     <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/index.php" class="btn btn-outline-primary">Quit</a>
                                 </div>
                             </div>

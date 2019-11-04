@@ -17,6 +17,10 @@
 								<div class="text-center">
 									<h1 class="h4 text-gray-900 mb-4">Welcome To <b>Tic Tac Toe<b></h1>
 								</div>
+                                <div id="intro-screen" class="center">
+                                    <h2>Player 1: <button class="choose">X</button></h2>
+                                    <h2>Player 2: <button class="choose">O</button></h2>
+                                </div>
                                 <a href="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/views/play.php" class="btn btn-primary btn-block">
                                     Play Game
                                 </a>

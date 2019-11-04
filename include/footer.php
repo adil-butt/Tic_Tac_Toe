@@ -7,6 +7,7 @@
 
 	<!-- Custom scripts for all pages-->
 	<script src="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/js/sb-admin-2.min.js"></script>
+    <script src="<?php echo $protocol . $hostName ?>/Tic_Tac_Toe/public/js/events.js"></script>
 
 </body>
 
